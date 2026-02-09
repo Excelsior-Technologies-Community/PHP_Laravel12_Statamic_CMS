@@ -301,7 +301,8 @@ PHP_Laravel12_Statamic_CMS
 │   ├── users/
 ├── routes/
 ├── storage/
-└── vendor/
+├── vendor/
+└── .env
 ```
 
 ### Key Statamic Folders
