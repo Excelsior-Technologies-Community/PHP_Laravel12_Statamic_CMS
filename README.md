@@ -301,7 +301,8 @@ PHP_Laravel12_Statamic_CMS
 │   ├── users/
 ├── routes/
 ├── storage/
-└── vendor/
+├── vendor/
+└── .env
 ```
 
 ### Key Statamic Folders
@@ -332,4 +333,3 @@ Handles custom Laravel routes alongside Statamic.
 ------------------------------------------------------------------------
 
 Your PHP_Laravel12_Statamic_CMS Project is now ready!
-
