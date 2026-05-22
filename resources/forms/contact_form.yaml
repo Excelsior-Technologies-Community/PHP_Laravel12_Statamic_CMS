@@ -1,0 +1,6 @@
+title: 'Contact Form'
+email:
+  -
+    to: admin@admin.com
+    from: system@yourdomain.com
+    subject: 'New Form Submission Received! 📬'

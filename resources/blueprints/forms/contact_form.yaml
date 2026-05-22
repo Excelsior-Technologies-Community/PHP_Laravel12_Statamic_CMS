@@ -1,0 +1,32 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+              width: 50
+              validate:
+                - required
+          -
+            handle: email
+            field:
+              type: text
+              input_type: email
+              display: Email
+              width: 75
+              validate:
+                - required
+          -
+            handle: message
+            field:
+              type: textarea
+              display: Message
+              validate:
+                - required
+      -
+        display: 'New Section'
