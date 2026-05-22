@@ -53,7 +53,8 @@ return [
     */
 
     'widgets' => [
-        //
+      'dashboard_metrics',
+    'getting_started',
     ],
 
     /*

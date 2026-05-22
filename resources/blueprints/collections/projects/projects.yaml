@@ -1,0 +1,25 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate: required
+      -
+        handle: description
+        field:
+          type: textarea
+          display: Description
+      -
+        handle: status
+        field:
+          type: select
+          options:
+            active: Active
+            pending: Pending
+            finished: Finished
+          default: active
+          display: Status
