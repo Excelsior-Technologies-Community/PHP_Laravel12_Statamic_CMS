@@ -17,4 +17,4 @@ Route::get('/dashboard', function () {
         'total' => \App\Models\User::count(),
         'deleted' => \App\Models\User::onlyTrashed()->count(),
     ]);
-});
+}); 
